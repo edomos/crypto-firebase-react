@@ -8,7 +8,7 @@
 }
 
 .rounded-div {
-  @apply border border-secondary rounded-2xl shadow-xl bg-primary px-2 max-w-[1200px] w-full m-auto
+  @apply border border-secondary rounded-2xl shadow-xl bg-primary px-2 max-w-[1200px] w-full mx-auto
 }
 
 /* Theme Color variables */
