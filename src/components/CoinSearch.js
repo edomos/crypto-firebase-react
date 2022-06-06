@@ -26,7 +26,7 @@ const CoinSearch = ({ coins }) => {
             <tr className="border-b">
               <th></th>
               <th className="px-4">#</th>
-              <th classname="text-elft">Coin</th>
+              <th className="text-left">Coin</th>
               <th></th>
               <th>Price</th>
               <th>24h</th>
