@@ -61,9 +61,10 @@ const SavedCoin = () => {
                                         </div>
                                     </Link>
                                     <td className="pl-8">
-                                        <AiOutlineClose onClick={() => deleteCoin(coin.id)} className="cursor-pointer"/>
+                                        {/* <AiOutlineClose onClick={() => deleteCoin(coin.id)} className="cursor-pointer"/> */}
                                     </td>
                                 </td>
+                                <AiOutlineClose onClick={() => deleteCoin(coin.id)} className="cursor-pointer my-2 mx-6"/>
                             </tr>
                         ))}
                     </tbody>

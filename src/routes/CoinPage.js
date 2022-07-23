@@ -90,7 +90,7 @@ const CoinPage = () => {
                     </div>
                 </div>
                 <div className="flex justify-between py-4">
-                    <div className="flex justify-between py-4">
+                    <div>
                         <p className="text-gray-500 text-sm">Price Change (24h)</p>
                         {coin.market_data ? (
                         <p>{coin.market_data.price_change_percentage_24h.toFixed(2)}%</p>
